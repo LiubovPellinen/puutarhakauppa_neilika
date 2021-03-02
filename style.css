@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url("photo/valkoinen_neilikka.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position:relative;
+    min-height:100vh;
+    height:100%;
+  }
+  .container h2{
+    color:rgb(11, 165, 11);
+    text-align: center;
+  }
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(252, 250, 232);
+    color:rgb(3, 61, 3);
+    text-align: center;
+
+  } 
+  a {
+    text-decoration: none;
+  }
+  .valittu {
+    background-color:rgb(200, 247, 186);
+    }
+  .page-header {
+    border-bottom: none;
+    color:rgb(11, 165, 11);
+    text-align: center;
+}
+
+/*___________Etusivu_________*/ 
+/* .carousel-caption{
+  width: 500px;
+  padding-left: auto;
+  padding-bottom: 0;
+  left:10%;
+  color:rgb(249, 250, 249);
+  text-shadow: 2px 2px #333;
+}
+#myCarousel{
+  padding-bottom: auto;
+}
+.carousel-indicators{
+  margin-bottom: 0;
+}*/
+
+
+/*___________Lomakkeet_________*/ 
+  body,
+  html,
+  .App,
+  .vertical-center {
+    width: 100%;
+    height: 70%;
+  }
+  
+  .btn-outline-primary {
+    border-color: rgb(3, 61, 3);
+    color: rgb(3, 61, 3);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: rgb(200, 247, 186);
+    color: rgb(11, 165, 11);
+  }
+  
+  .vertical-center {
+    display: flex;
+    text-align: left;
+    /*justify-content: center;*/
+    flex-direction: column;
+  }
+  .inner-block{
+    width: 550px;
+    margin: auto;
+    background-color:rgba(247, 246, 240, 0.6);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 20px 20px 20px 20px;
+    transition: all .3s;
+    border-radius: 20px;
+  }
+  #inner_login{
+    width: 350px;
+  }
+  #inner_reg{
+    width: 400px;
+  }
+  #nimi, #tuotekuvaus, #tuotehinta, #kategoria, #uusi_kategoria, #aihe, #posti, #k_viesti {
+    width:70%;
+  } 
+ 
+  .vertical-center .form-control:focus {
+    border-color: #2554FF;
+    box-shadow: none;
+  }
+  
+  .vertical-center h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    color:rgb(11, 165, 11);
+  }
+  /*___________Kuvat_________*/ 
+  .caption h4 {
+    text-align: center;
+    color:rgb(11, 165, 11);
+  }
+  .caption h:hover {
+    color:  rgb(90, 180, 63) ;
+    text-decoration: none;
+  } 
+  .thumbnail{
+    background-color: rgba(250, 249, 244, 0.7);
+  
+  }
+/*___________Tietoa/Kaupat_________*/ 
+.tietoa, .kaupat {
+   background-color:  rgba(250, 249, 244, 0.7);
+  }
+ 
+.kaupat p{
+   font-size:16px;
+}
+.kaupat{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*___________Navigointi_________*/ 
+  nav.navbar{
+    background-color:rgb(252, 250, 232);
+    border-style: none;
+  } 
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
+    background-color:rgb(252, 250, 232);
+    color:rgb(3, 61, 3);
+  }  
+  /*nav.navbar .dropdown:active>.dropdown-menu{
+    display:block;
+   
+  }*/
+  .dropdown-menu>li>a{
+    color:rgb(3, 61, 3);
+
+  }
+  .dropdown-menu>li>a:hover{
+    color:rgb(11, 165, 11)
+
+  }
+
+  .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color:rgb(3, 61, 3);
+    background-color:rgb(252, 250, 232);
+}
+  
+  /*nav.navbar .dropdown:active>.dropdown-menu a{
+    color:rgb(3, 61, 3);
+  }*/
+  /*nav.navbar .dropdown:active>.dropdown-menu a:hover{
+    color:rgb(11, 165, 11);
+  }*/
+  .navbar-inverse .navbar-nav>li>a {
+    color:rgb(3, 61, 3);
+  }
+  .navbar-inverse .navbar-nav>li>a:hover{
+    color:rgb(11, 165, 11);
+  }
+  nav.navbar .navbar-brand{
+    color:rgb(3, 61, 3);
+    font-size: xx-large;
+  }
+  nav.navbar .navbar-brand:hover{
+    color:rgb(11, 165, 11);
+  }
+ 
+  .content, #viesti{
+    padding-top:100px;  
+    /*background-color:antiquewhite;*/
+    padding-bottom:2.5rem;
+    color:rgb(58, 133, 36);
+    text-align: center;
+    }  
+      
+  h2 {
+    color:rgb(90, 180, 63);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+   
+  /* Style inputs, select elements and textareas */
+  input[type=text], input[type=email],input[type=password], select, textarea, input[list]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    color: #33912b;
+    display: inline-block;
+    font-weight: bold;
+    font-weight: 500;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .feedback, .kay_rek, .kuvat, .kuvat_lat, .kirjaudu,.kirjaudu_pros, .ulos {
+    border-radius: 5px;
+    position: relative;
+    top: 5px;
+    padding: 5%;
+  }
+  .content{
+    background-color: none;
+  }
+    
+  .col-new {
+    float: left;
+  }
+     
+ 
+@media (min-width: 768px){
+
+  #carousel {
+    width: 600px;
+    padding:5px;
+  
+}
+.carousel-caption{
+  width: 550px;
+  padding-left: auto;
+  padding-bottom: 0;
+  left:5%;
+  color:rgb(249, 250, 249);
+  text-shadow: 2px 2px #000;
+  background-color:rgb(249, 250, 249,0.1);
+  
+  
+}
+#myCarousel{
+  padding-bottom: auto;
+}
+.carousel-indicators{
+  bottom: 0;
+  
+}
+
+}
+
+@media (max-width: 767px){
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color:rgb(3, 61, 3); 
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    color:rgb(11, 165, 11);
+    }
+  .inner-block{
+    width: 400px;
+    padding-left: 20px;
+    
+  }
+  #nimi, #tuotekuvaus, #tuotehinta, #kategoria, #uusi_kategoria, #aihe, #posti, #k_viesti {
+    width: 90%;
+    margin:auto;
+    
+}
+
+  
+
+}

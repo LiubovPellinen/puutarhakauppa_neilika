@@ -1,0 +1,402 @@
+[2021-02-13 11:12:07] mysqli::__set_state(array(
+   'affected_rows' => NULL,
+   'client_info' => NULL,
+   'client_version' => NULL,
+   'connect_errno' => NULL,
+   'connect_error' => NULL,
+   'errno' => NULL,
+   'error' => NULL,
+   'error_list' => NULL,
+   'field_count' => NULL,
+   'host_info' => NULL,
+   'info' => NULL,
+   'insert_id' => NULL,
+   'server_info' => NULL,
+   'server_version' => NULL,
+   'sqlstate' => NULL,
+   'protocol_version' => NULL,
+   'thread_id' => NULL,
+   'warning_count' => NULL,
+))
+[2021-02-13 11:14:25] Unknown database 'neilikka3000'
+[2021-02-13 11:15:05] Unknown database 'neilikka3000'
+[2021-02-13 11:15:12] Unknown database 'neilikka3000'
+[2021-02-13 11:16:20] Virhe: INSERT INTO palautteet(pvm22222,nimi,sahkoposti,aihe,viesti) VALUE (NOW(),'Liubov',' Pellinen','moi','re') Unknown column 'pvm22222' in 'field list'
+[2021-02-13 11:28:58] Unknown database 'neilikk3a'
+[2021-02-13 11:29:16] Unknown database 'neilikk3a'
+[2021-02-13 11:29:16] Virhe: INSERT INTO palautteet(pvm,nimi,sahkoposti,aihe,viesti) VALUE (NOW(),'',' ','','') 
+[2021-02-13 11:49:47] Unknown database 'neilikk3a'
+[2021-02-14 15:18:43] Unknown database 'neilikk3a'
+[2021-02-14 16:14:49] Virhe: email is not a valid email address  
+[2021-02-14 16:16:19] Virhe: email is not a valid email address  
+[2021-02-14 16:25:14] Virhe: email is not a valid email address  
+[2021-02-15 07:00:24] Virhe: email is not a valid email address  
+[2021-02-15 16:53:38] Virhe: email is not a valid email address  
+[2021-02-15 22:55:39] Virhe: email is not a valid email address  
+[2021-02-15 22:57:05] Virhe: email is not a valid email address  
+[2021-02-17 06:09:51] Ivan
+[2021-02-17 06:09:51] 123
+[2021-02-17 06:09:51] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-17 06:09:51] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 06:11:40] Ivan
+[2021-02-17 06:11:40] 123
+[2021-02-17 06:11:40] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-17 06:11:40] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 06:11:40] 
+[2021-02-17 06:11:41] 
+[2021-02-17 06:15:10] Ivan
+[2021-02-17 06:15:10] 123
+[2021-02-17 06:15:10] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-17 06:15:10] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 06:15:10] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-17 06:15:10] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-17 06:40:00] Liubov
+[2021-02-17 06:40:00] sd
+[2021-02-17 06:40:00] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-17 06:40:00] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 06:40:00] array (
+  'kayttaja_salasana' => '123_aBc',
+)
+[2021-02-17 06:40:00] 123_aBc
+[2021-02-17 06:59:45] Liubov
+[2021-02-17 06:59:45] er
+[2021-02-17 06:59:45] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-17 06:59:45] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 06:59:45] array (
+  'kayttaja_salasana' => '123_aBc',
+)
+[2021-02-17 06:59:45] 123_aBc
+[2021-02-17 09:45:19] Liubov
+[2021-02-17 09:45:19] 123_aBc
+[2021-02-17 09:45:19] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-17 09:45:19] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 09:45:19] array (
+  'kayttaja_salasana' => '123_aBc',
+)
+[2021-02-17 09:45:19] 123_aBc
+[2021-02-17 09:45:38] Ivan
+[2021-02-17 09:45:39] 123
+[2021-02-17 09:45:39] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-17 09:45:39] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 09:45:39] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-17 09:45:39] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-17 18:45:39] Ivan
+[2021-02-17 18:45:39] 123
+[2021-02-17 18:45:39] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-17 18:45:39] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 18:45:39] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-17 18:45:39] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-17 19:32:28] Ivan
+[2021-02-17 19:32:28] 123
+[2021-02-17 19:32:28] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-17 19:32:28] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-17 19:32:28] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-17 19:32:28] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-17 21:00:08] 0
+[2021-02-17 21:00:08] 2
+[2021-02-17 21:00:08] 
+[2021-02-17 21:00:08] 1
+[2021-02-17 21:00:17] 0
+[2021-02-17 21:00:17] 2
+[2021-02-17 21:00:17] 
+[2021-02-17 21:00:17] 1
+[2021-02-17 21:06:26] offset=0
+[2021-02-17 21:06:26] ketegoria=2
+[2021-02-17 21:06:26] total_row=
+[2021-02-17 21:06:26] total_pages=1
+[2021-02-17 21:10:25] offset=0
+[2021-02-17 21:10:25] ketegoria=2
+[2021-02-17 21:10:25] total_row=1
+[2021-02-17 21:10:25] total_pages=1
+[2021-02-17 21:15:56] total_rows=21
+[2021-02-17 21:19:23] total_rows=
+[2021-02-17 21:28:40] total_rows=21
+[2021-02-17 21:28:54] total_rows=21
+[2021-02-17 21:28:59] total_rows=21
+[2021-02-17 21:29:02] total_rows=21
+[2021-02-17 21:29:07] total_rows=21
+[2021-02-17 21:29:25] total_rows=21
+[2021-02-17 21:29:29] total_rows=21
+[2021-02-17 21:29:33] total_rows=21
+[2021-02-18 16:23:56] Ivan
+[2021-02-18 16:23:56] 123
+[2021-02-18 16:23:56] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-18 16:23:56] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-18 16:23:56] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-18 16:23:56] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-18 16:29:13] Ivan
+[2021-02-18 16:29:13] 123
+[2021-02-18 16:29:13] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-18 16:29:13] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-18 16:29:13] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-18 16:29:13] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-18 20:43:29] ivan
+[2021-02-18 20:43:29] 123
+[2021-02-18 20:43:29] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'ivan'
+[2021-02-18 20:43:29] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-18 20:43:29] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-18 20:43:29] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-18 20:44:56] Admin
+[2021-02-18 20:44:56] Admin123
+[2021-02-18 20:44:56] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Admin'
+[2021-02-18 20:44:56] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-18 20:44:56] array (
+  'kayttaja_salasana' => '$2y$10$dAOisC1N8e0GJWZcxNsZ/.S5CdrNyXeGw7wm4Ytb72bfR/JQCAf7i',
+)
+[2021-02-18 20:44:56] $2y$10$dAOisC1N8e0GJWZcxNsZ/.S5CdrNyXeGw7wm4Ytb72bfR/JQCAf7i
+[2021-02-19 07:42:33] Admin
+[2021-02-19 07:42:33] Admin123
+[2021-02-19 07:42:33] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Admin'
+[2021-02-19 07:42:33] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-19 07:42:33] array (
+  'kayttaja_salasana' => '$2y$10$dAOisC1N8e0GJWZcxNsZ/.S5CdrNyXeGw7wm4Ytb72bfR/JQCAf7i',
+)
+[2021-02-19 07:42:33] $2y$10$dAOisC1N8e0GJWZcxNsZ/.S5CdrNyXeGw7wm4Ytb72bfR/JQCAf7i
+[2021-02-23 16:53:20] Ivan
+[2021-02-23 16:53:20] 123
+[2021-02-23 16:53:20] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Ivan'
+[2021-02-23 16:53:20] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-23 16:53:20] array (
+  'kayttaja_salasana' => '$2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW',
+)
+[2021-02-23 16:53:20] $2y$10$tdZ45aOKEwwG21mCWC5C/.FxDs8ZLr8WXzQxAkSeIo1hT5nIcZEFW
+[2021-02-23 16:56:26] Igor
+[2021-02-23 16:56:26] Pell1307
+[2021-02-23 16:56:26] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Igor'
+[2021-02-23 16:56:27] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-23 16:56:27] array (
+  'kayttaja_salasana' => '$2y$10$br6u3SYyrr5kBUJa.yXM1.L7twYzeq7T5uWVPVkfUVpZXFkRMOQ1e',
+)
+[2021-02-23 16:56:27] $2y$10$br6u3SYyrr5kBUJa.yXM1.L7twYzeq7T5uWVPVkfUVpZXFkRMOQ1e
+[2021-02-23 16:57:38] Admin
+[2021-02-23 16:57:38] Admin123
+[2021-02-23 16:57:38] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Admin'
+[2021-02-23 16:57:38] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-23 16:57:38] array (
+  'kayttaja_salasana' => '$2y$10$dAOisC1N8e0GJWZcxNsZ/.S5CdrNyXeGw7wm4Ytb72bfR/JQCAf7i',
+)
+[2021-02-23 16:57:38] $2y$10$dAOisC1N8e0GJWZcxNsZ/.S5CdrNyXeGw7wm4Ytb72bfR/JQCAf7i
+[2021-02-24 17:41:42] Liubov
+[2021-02-24 17:41:42] Bov.ivki
+[2021-02-24 17:41:42] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-24 17:41:42] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-24 17:41:42] array (
+  'kayttaja_salasana' => '$2y$10$L/3/rZuIjsfqK0Ag0.BHZOCuWizMb9iTFRDUC4lp6yOCqmuYTbSnC',
+)
+[2021-02-24 17:41:42] $2y$10$L/3/rZuIjsfqK0Ag0.BHZOCuWizMb9iTFRDUC4lp6yOCqmuYTbSnC
+[2021-02-24 22:18:37] Admin123
+[2021-02-24 22:18:37] Admin123
+[2021-02-24 22:18:37] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Admin123'
+[2021-02-24 22:18:37] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-24 22:22:04] Liubov
+[2021-02-24 22:22:04] Bov.ivki
+[2021-02-24 22:22:04] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-24 22:22:04] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-24 22:22:04] array (
+  'kayttaja_salasana' => '$2y$10$RtBtZOq225ob5V9mDb20bu02R/zhBXrR7BIh/iFVLhl.F04mgO1.C',
+)
+[2021-02-24 22:22:04] $2y$10$RtBtZOq225ob5V9mDb20bu02R/zhBXrR7BIh/iFVLhl.F04mgO1.C
+[2021-02-25 11:58:41] Liubov
+[2021-02-25 11:58:41] Bov_ivki2910
+[2021-02-25 11:58:41] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-25 11:58:41] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-25 11:58:41] array (
+  'kayttaja_salasana' => '$2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK',
+)
+[2021-02-25 11:58:41] $2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK
+[2021-02-25 12:20:21] Liubov
+[2021-02-25 12:20:21] Bov_ivki2910
+[2021-02-25 12:20:21] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-25 12:20:21] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-25 12:20:21] array (
+  'kayttaja_salasana' => '$2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK',
+)
+[2021-02-25 12:20:21] $2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK
+[2021-02-25 12:20:58] Liubov
+[2021-02-25 12:20:58] Bov_ivki2910
+[2021-02-25 12:20:58] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-25 12:20:58] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-25 12:20:58] array (
+  'kayttaja_salasana' => '$2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK',
+)
+[2021-02-25 12:20:58] $2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK
+[2021-02-25 12:22:58] Liubov
+[2021-02-25 12:22:58] Bov_ivki2910
+[2021-02-25 12:22:58] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-25 12:22:58] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-25 12:22:58] array (
+  'kayttaja_salasana' => '$2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK',
+)
+[2021-02-25 12:22:58] $2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK
+[2021-02-25 13:14:13] Liubov
+[2021-02-25 13:14:13] Bov_ivki2910
+[2021-02-25 13:14:13] SELECT kayttaja_salasana FROM kayttajat WHERE kayttaja_nimi= 'Liubov'
+[2021-02-25 13:14:13] mysqli_result::__set_state(array(
+   'current_field' => NULL,
+   'field_count' => NULL,
+   'lengths' => NULL,
+   'num_rows' => NULL,
+   'type' => NULL,
+))
+[2021-02-25 13:14:13] array (
+  'kayttaja_salasana' => '$2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK',
+)
+[2021-02-25 13:14:13] $2y$10$mwSuyiwZ/NyRa1gT1hAD7.3yhE/I5WDI4Q35jS5./0kenryZp2VzK
