@@ -20,7 +20,7 @@ include("navigointi.php");
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="photo/xmas.jpg" alt="newYear">
+        <img src="photo/xmas1.jpg" alt="newYear">
         <div class="carousel-caption">
           <h3>2.1.2021</h3>
           <h4>Hyvää uutta vuotta! Uuden vuoden kunniaksi myymälöissämme upeita tarjouksia</h4>
