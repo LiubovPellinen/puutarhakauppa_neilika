@@ -74,7 +74,7 @@ global $fNameEmptyErr, $emailEmptyErr, $passwordEmptyErr, $password_2_EmptyErr, 
                     // Send verification email
                     if ($tulokset) {
                         $msg = 'Click on the activation link to verify your email. <br><br>
-                  <a href="http://localhost/moodle/puutarhakauppa_bootstrap/user_verification.php?token=' . $token . '"> Click here to verify email</a>
+                  <a href="http://localhost/moodle/puutarhakauppa_neilikka/user_verification.php?token=' . $token . '"> Click here to verify email</a>
                 ';
 
                         // Create the Transport

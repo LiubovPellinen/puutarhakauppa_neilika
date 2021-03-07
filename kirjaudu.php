@@ -29,11 +29,10 @@ include("kirjaudu_pros.php");
 
                 </div>
 
-
-
                 <div class="form-group">
                     <label>Salasana</label>
                     <input type="password" class="form-control" name="kay_salasana" id="kay_salasana" />
+                    <a href="reset_password.php"> Unohditko salasana?</a>
 
 
                 </div>

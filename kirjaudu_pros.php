@@ -1,8 +1,6 @@
 <?php
 include "tietokanta.php";
-
-
-  
+ 
   //if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     //die('only post');
   //}

@@ -26,7 +26,7 @@
                 <?php echo $activation_error; ?>
             </div>
             <p class="lead">If user account is verified then click on the following button to login.</p>
-            <a class="btn btn-lg btn-success" href="http://localhost/moodle/puutarhakauppa_bootstrap/kirjaudu.php"
+            <a class="btn btn-lg btn-success" href="http://localhost/moodle/puutarhakauppa_neilikka/kirjaudu.php"
                >Click to Login
             </a>
         </div>

@@ -4,9 +4,7 @@ $sivu = $_SERVER['PHP_SELF'];
 $loppuosa = substr($sivu,strrpos($sivu,"/") + 1);
 $osoite = substr($loppuosa,0,strpos($loppuosa,"."));
 $valittu = "class=\"valittu\" ";
-session_start();
-?>
-
+session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,11 +39,11 @@ session_start();
       <li><a <?php if ($osoite == "tietoa") echo $valittu;?> href="tietoa.php">Tietoa meistä</a></li>
       <li><a <?php if ($osoite == "viesti") echo $valittu;?> href="viesti.php">Ota yhteyttä</a></li>
       <?php
-      if(isset($_SESSION['admin'])){
-      if($_SESSION['admin'] == 1) {?>
+      if(isset($_SESSION['admin'])&& $_SESSION['admin'] == 1 ){
+      ?>
        <li><a <?php if ($osoite == "uusi_tuote") echo $valittu;?> href="uusi_tuote.php">Uusi tuote</a></li>
        <?php
-      }} ?>
+      } ?>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <?php if(isset($_SESSION['admin'])){?>
