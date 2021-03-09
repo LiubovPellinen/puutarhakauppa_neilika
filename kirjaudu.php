@@ -1,10 +1,10 @@
 <?php
 include("navigointi.php");
-include("kirjaudu_pros.php"); 
+include("kirjaudu_pros.php");
 //session_start();
 //if (isset($_SESSION['loggedIn'])) {
 //    header('Location: y_tili.php');
-  //  die();
+//  die();
 //}
 
 ?>
@@ -16,11 +16,11 @@ include("kirjaudu_pros.php");
             <form action="" method="post">
                 <h3>Kirjaudu</h3>
 
-                    <?php echo $accountNotExistErr; ?>
-                    <?php echo $namePwdErr; ?>
-                    <?php echo $verificationRequiredErr; ?>
-                    <?php echo $name_empty_err; ?>
-                    <?php echo $pass_empty_err; ?>
+                <?php echo $accountNotExistErr; ?>
+                <?php echo $namePwdErr; ?>
+                <?php echo $verificationRequiredErr; ?>
+                <?php echo $name_empty_err; ?>
+                <?php echo $pass_empty_err; ?>
 
                 <div class="form-group">
                     <label>Nimi</label>
@@ -36,7 +36,10 @@ include("kirjaudu_pros.php");
 
 
                 </div>
-
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="rememberme" id="rememberme" />
+                    <label class="form-check-label" for="rememberme">Muista minut</label>
+                </div>
 
                 <button type="submit" name="login" id="submit" class="btn btn-outline-primary btn-lg btn-block">Kirjaudu
                 </button>

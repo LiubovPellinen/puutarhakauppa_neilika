@@ -1,5 +1,5 @@
 <?php
-include('tietokanta.php');
+//include('tietokanta.php');
 require_once './vendor/autoload.php';
 global $emailErr;
 if (isset($_POST["submit"])) {

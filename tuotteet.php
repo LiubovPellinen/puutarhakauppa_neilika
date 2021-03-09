@@ -1,5 +1,5 @@
 <?php
-include("tietokanta.php");
+//include("tietokanta.php");
 include("navigointi.php");
 if (isset($_GET['pageno'])) {
     $pageno = $_GET['pageno'];

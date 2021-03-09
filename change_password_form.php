@@ -6,7 +6,7 @@ $error = [
 ];
 
 include("navigointi.php");
-include('./tietokanta.php');
+//include('./tietokanta.php');
 include("change_password_handler.php");
 
  if (isset($_GET['token_salasana']) && !empty($_GET['token_salasana'])){

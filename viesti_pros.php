@@ -1,6 +1,6 @@
 <?php
 
-include "tietokanta.php";
+//include "tietokanta.php";
     global $_emailErr,$_feefbackErr, $_feedbackSucsess;
 
     

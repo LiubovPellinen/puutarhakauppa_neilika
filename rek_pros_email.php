@@ -1,5 +1,5 @@
 <?php
-include('tietokanta.php');
+//include('tietokanta.php');
 
 // Swiftmailer lib
 require_once './vendor/autoload.php';
@@ -73,7 +73,7 @@ global $fNameEmptyErr, $emailEmptyErr, $passwordEmptyErr, $password_2_EmptyErr, 
                     $tulokset = $yhteys->query($rek_Query);
                     // Send verification email
                     if ($tulokset) {
-                        $msg = 'Click on the activation link to verify your email. <br><br>
+                        $msg = 'Click on the activation link to reset your password. <br><br>
                   <a href="http://localhost/moodle/puutarhakauppa_neilikka/user_verification.php?token=' . $token . '"> Click here to verify email</a>
                 ';
 
