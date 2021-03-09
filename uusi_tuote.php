@@ -6,7 +6,7 @@ if(isset($_SESSION['admin'])){
      
     }} 
 
-include("tietokanta.php");
+//include("tietokanta.php");
 include("uusi_tuote_pros.php");
 
 ?>
